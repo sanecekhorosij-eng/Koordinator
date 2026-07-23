@@ -1,0 +1,12 @@
+{
+  "name": "tectov",
+  "version": "1.0.0",
+  "description": "Локальный AI-агент координатор. Работает с Ollama, расширяется до PWA.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "keywords": ["ai", "agent", "ollama", "pwa"],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECTOV — AI Agent</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>TECTOV</h1>
+      <p class="subtitle">AI Agent Coordinator</p>
+    </header>
+
+    <main class="chat">
+      <div class="messages" id="messages">
+        <div class="message agent">
+          <div class="avatar">A</div>
+          <div class="bubble">Привет! Я TECTOV. Напишите задачу, и я постараюсь её выполнить.</div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="input-area">
+      <input
+        type="text"
+        id="taskInput"
+        class="task-input"
+        placeholder="Введите задачу..."
+        autofocus
+      />
+      <button id="sendBtn" class="send-btn">Отправить</button>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
